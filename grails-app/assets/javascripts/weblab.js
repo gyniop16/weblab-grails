@@ -7,9 +7,10 @@
 //
 //= require jquery-2.2.0.min
 //= require bootstrap
-// require_tree .
+//= require app.min
+//= require_tree .
 //= require_self
-
+/*
 if (typeof jQuery !== 'undefined') {
     (function($) {
         $('#spinner').ajaxStart(function() {
@@ -18,4 +19,4 @@ if (typeof jQuery !== 'undefined') {
             $(this).fadeOut();
         });
     })(jQuery);
-}
+}*/
