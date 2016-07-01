@@ -1,9 +1,10 @@
 <g:applyLayout name="content">
-	
-	<content tag="content.title">
-		<g:pageProperty name="page.content.title" />
-	</content>
-	
+<html>
+    <head>
+      <title><g:layoutTitle/></title>
+      <g:layoutHead/>
+    </head>
+    <body>	
 	<!-- Default box -->
 	<div class="box">
 		<div class="box-header with-border">
@@ -22,7 +23,7 @@
 			</div>
 		</div>
 		<div class="box-body">
-			<g:pageProperty name="page.box.body" />
+			<g:layoutBody/>
 		</div>
 		<!-- /.box-body -->
 		<div class="box-footer">
@@ -31,4 +32,6 @@
 		<!-- /.box-footer-->
 	</div>
 	<!-- /.box -->
+	</body>
+</html>	
 </g:applyLayout>
